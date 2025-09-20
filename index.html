@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV — Juan Pablo Argüello</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a class="nav-logo" href="#inicio">Juan Pablo Argüello</a>
+      <ul class="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="./portfolio.html">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Inicio -->
+    <header id="inicio" class="header">
+      <div class="perfil">
+        <div class="foto-carnet" aria-hidden="true">
+          <!-- Reemplazá la ruta por tu foto -->
+          <img src="./assets/img/logo-juanpablo.jpeg" alt="Foto de perfil de Juan Pablo Argüello" />
+        </div>
+        <div class="intro">
+          <h1>Analista de Sistemas — Implementador de Software</h1>
+          <p class="resumen">
+            Analista de Sistemas con experiencia en implementación de software en Bit (sector agro),
+            soporte técnico en el Hospital Privado y pasantía como QA Manual. Me enfoco en
+            relevamiento de procesos, parametrización, capacitación de usuarios y soporte
+            post-implementación. Interés en docencia e IA aplicada.
+          </p>
+          <ul class="meta">
+            <li>Córdoba, Argentina</li>
+            <li><a href="mailto:jpablo.arguello@gmail.com">jpablo.arguello@gmail.com</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/jparguello29/" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="seccion">
+      <h2>Habilidades</h2>
+      <ul class="chips">
+        <li>Implementación de software</li>
+        <li>Relevamiento y documentación</li>
+        <li>Capacitación de usuarios</li>
+        <li>Soporte técnico</li>
+        <li>Gestión de tickets</li>
+        <li>QA manual</li>
+        <li>Excel avanzado</li>
+        <li>SQL básico</li>
+        <li>Git y GitHub</li>
+        <li>Comunicación efectiva</li>
+      </ul>
+    </section>
+
+    <!-- Educación -->
+    <section id="educacion" class="seccion">
+      <h2>Educación</h2>
+      <ol class="timeline">
+        <li>
+          <div class="tl-item">
+            <h3>Analista de Sistemas</h3>
+            <p class="institucion">Institución terciaria — Finalizado 2025</p>
+            <p>Orientación en desarrollo, bases de datos y análisis de procesos.</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-item">
+            <h3>Curso Python Interactivo</h3>
+            <p class="institucion">Desafío Latam — 2025</p>
+            <p>Automatización y manejo de datos con Python.</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-item">
+            <h3>Tester QA Manual (Pasantía)</h3>
+            <p class="institucion">HK y Asociados — 2022</p>
+            <p>Casos de prueba, reporte de incidencias y gestión de defectos.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="seccion">
+      <h2>Experiencia</h2>
+
+      <article class="xp">
+        <div class="xp-fecha">2024 — Actualidad</div>
+        <div class="xp-detalle">
+          <h3>Implementador de Software — Bit</h3>
+          <ul>
+            <li>Relevamiento de procesos del cliente y definición de alcance.</li>
+            <li>Parametrización del sistema y migración de datos.</li>
+            <li>Capacitación a usuarios finales y documentación funcional.</li>
+            <li>Soporte post-implementación y mejoras continuas.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xp">
+        <div class="xp-fecha">2025 — Actualidad</div>
+        <div class="xp-detalle">
+          <h3>Profesor de Informática — Nivel Secundario</h3>
+          <ul>
+            <li>Funciones y fórmulas en Excel (CONTAR, SUMAR.SI.CONJUNTO, SI, SI(Y), SI(O)).</li>
+            <li>Buenas prácticas de ofimática y alfabetización digital.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xp">
+        <div class="xp-fecha">2022 — 2023</div>
+        <div class="xp-detalle">
+          <h3>Soporte Técnico — Hospital Privado</h3>
+          <ul>
+            <li>Mesa de ayuda, instalación y mantenimiento de hardware y software.</li>
+            <li>Diagnóstico de incidencias, redes básicas y coordinación con proveedores.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="xp">
+        <div class="xp-fecha">2022</div>
+        <div class="xp-detalle">
+          <h3>Pasantía QA Manual — HK y Asociados</h3>
+          <ul>
+            <li>Ejecución de pruebas, diseño de casos y reporte de bugs.</li>
+            <li>Colaboración con desarrollo para reproducir y cerrar incidencias.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+     <!-- Footer -->
+    <footer id="contacto" class="footer">
+      <h2>Contacto</h2>
+      <ul class="contacto">
+        <li><strong>Email:</strong> <a href="mailto:jpablo.arguello@gmail.com">jpablo.arguello@gmail.com</a></li>
+        <li><strong>Ubicación:</strong> Córdoba, Argentina</li>
+      </ul>
+    </footer>
+  </main>
+</body>
+</html>
